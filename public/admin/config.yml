@@ -1,0 +1,31 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update
+
+media_folder: 'static/img' # Media files will be stored in the repo under static/img
+public_folder: '/img' # Folder path where uploaded files will be accessed, relative to the base of the built site
+
+collections:
+  - name: 'product'
+    label: 'Product'
+    identifier_field: 'name'
+    folder: 'src/content/products'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'product-page',
+        }
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - {
+          label: 'Price',
+          name: 'price',
+          widget: 'number',
+          valueType: 'float',
+          min: 1,
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
