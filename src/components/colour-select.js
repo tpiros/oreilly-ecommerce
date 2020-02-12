@@ -5,12 +5,6 @@ function ColourSelect({changeColour, getColourName}) {
     name: 'yellow',
     hex: 'ffff00',
   }, {
-    name: 'teal',
-    hex: '008080',
-   }, {
-     name: 'indigo',
-     hex: '4b0082',
-   }, {
      name: 'blue',
      hex: '0000ff'
    }, {
