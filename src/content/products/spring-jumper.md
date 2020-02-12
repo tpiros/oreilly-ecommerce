@@ -1,9 +1,7 @@
 ---
 templateKey: product-page
 name: Spring Jumper
-image: jamstack-training/spring-jumper.jpg
-price: 25.99
-id: prod-5
+price: 30.99
 ---
 
 ## Product Description
