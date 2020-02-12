@@ -19,6 +19,9 @@ function ColourSelect({changeColour, getColourName}) {
    }, {
      name: 'original',
      hex: 'd79025'
+  }, {
+    name: 'purple',
+    hex: 'ff00ff'
   }]
   function applyColour(e, colour) {
     e.preventDefault();
