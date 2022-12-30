@@ -6,7 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "cloudinary-react": "^1.2.1",
-    "gatsby": "^2.17.11",
+    "gatsby": "^2.32.13",
     "gatsby-cli": "^2.8.29",
     "gatsby-image": "^2.2.31",
     "gatsby-plugin-layout": "^1.1.15",
